@@ -1,0 +1,125 @@
+site_name: PyroNN
+site_url: https://pyronn-doc.github.io/
+theme:
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  icon: 
+    logo: fontawesome/solid/p
+  favicon: assets/favicon.ico
+  features:
+    - navigation.footer
+  name: material
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+extra:
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/DearDante/PYRO-NN/tree/torch%2Btf
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/lsschneiderde/
+  generator: false
+
+
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      theme: dark
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_options:
+              ignore_init_summary: true
+            merge_init_into_class: true
+            docstring_style: google
+            show_root_heading: true
+            show_source: true
+            separate_signature: true
+            line_length: 80
+            show_signature_annotations: true
+            show_symbol_type_heading: true
+            show_symbol_type_toc: true
+            show_inheritance_diagram: true
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+    - Home: index.md
+    - Installation: installation.md
+    - Usage: usage.md
+    - Reconstruction Notebooks:
+      - FBP Reconstruction: PyroNN_demonstration.ipynb
+      - Iterative Reconstruction: iterative_reconstruction_parallel.ipynb
+    - Examples: examples.md
+    - Preprocessing: Helpers.md
+    - Code References:
+      - Ct_reconstruction:
+        - Geometry:
+          - Geometry_base: reference/ct_reconstruction/geometry/geometry_base.md
+          - Geometry_specific: reference/ct_reconstruction/geometry/geometry_specific.md
+        - Helpers:
+          - Filters:
+            - Filters: reference/ct_reconstruction/helpers/filters/filters.md
+            - Weights: reference/ct_reconstruction/helpers/filters/weights.md
+          - Misc:
+            - General_utils: reference/ct_reconstruction/helpers/misc/general_utils.md
+          - Phantoms:
+            - Primitives_2d: reference/ct_reconstruction/helpers/phantoms/primitives_2d.md
+            - Primitives_3d: reference/ct_reconstruction/helpers/phantoms/primitives_3d.md
+            - Shepp_logan: reference/ct_reconstruction/helpers/phantoms/shepp_logan.md
+          - Trajectories:
+            - Arbitrary_trajectory: reference/ct_reconstruction/helpers/trajectories/arbitrary_trajectory.md
+            - Circular_trajectory: reference/ct_reconstruction/helpers/trajectories/circular_trajectory.md
+        - Layers:
+          - Backprojection_2d: reference/ct_reconstruction/layers/backprojection_2d.md
+          - Backprojection_3d: reference/ct_reconstruction/layers/backprojection_3d.md
+          - Projection_2d: reference/ct_reconstruction/layers/projection_2d.md
+          - Projection_3d: reference/ct_reconstruction/layers/projection_3d.md
+          - Tensorflow:
+            - Backprojection_2d: reference/ct_reconstruction/layers/tensorflow/backprojection_2d.md
+            - Backprojection_3d: reference/ct_reconstruction/layers/tensorflow/backprojection_3d.md
+            - Projection_2d: reference/ct_reconstruction/layers/tensorflow/projection_2d.md
+            - Projection_3d: reference/ct_reconstruction/layers/tensorflow/projection_3d.md
+          - Torch:
+            - Backprojection_2d: reference/ct_reconstruction/layers/torch/backprojection_2d.md
+            - Backprojection_3d: reference/ct_reconstruction/layers/torch/backprojection_3d.md
+            - Projection_2d: reference/ct_reconstruction/layers/torch/projection_2d.md
+            - Projection_3d: reference/ct_reconstruction/layers/torch/projection_3d.md
+        - __init__: reference/ct_reconstruction/__init__.md
+      - __init__: reference/__init__.md
+
+copyright: Copyright &copy; 2025 Pyro-NN
