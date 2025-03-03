@@ -1,4 +1,4 @@
-#  PyroNN Demonstration
+#  PyroNN V-1.1.0
 
 
 [![PyPI version](https://badge.fury.io/py/pyronn.svg)](https://badge.fury.io/py/pyronn)
