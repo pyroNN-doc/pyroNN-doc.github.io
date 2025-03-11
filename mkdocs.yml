@@ -27,6 +27,9 @@ theme:
       primary: blue
       accent: deep orange
 
+extra_css:
+        - stylesheets/custom.css
+
 extra:
 
   social:
@@ -41,6 +44,7 @@ extra:
 plugins:
   - search
   - mkdocs-jupyter:
+      include_source: true
       theme: dark
   - mkdocstrings:
       handlers:
@@ -77,8 +81,6 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
-extra_css:
-  - css/custom.css
 
 
 nav:
@@ -123,7 +125,7 @@ nav:
             - Backprojection_3d: reference/ct_reconstruction/layers/torch/backprojection_3d.md
             - Projection_2d: reference/ct_reconstruction/layers/torch/projection_2d.md
             - Projection_3d: reference/ct_reconstruction/layers/torch/projection_3d.md
-        - __init__: reference/ct_reconstruction/__init__.md
-      - __init__: reference/__init__.md
+      #   - __init__: reference/ct_reconstruction/__init__.md
+      # - __init__: reference/__init__.md
 
 copyright: Copyright &copy; 2025 Pyro-NN

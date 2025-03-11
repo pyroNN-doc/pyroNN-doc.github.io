@@ -1,0 +1,32 @@
+/* Ensure Jupyter notebook content spans full width */
+.md-typeset .cell {
+    width: 120% !important;
+    max-width: 120% !important;
+    overflow-x: False;
+}
+
+/* Prevent code blocks from causing horizontal scrolling */
+.codehilite pre, .codehilite .highlight {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    white-space: pre-wrap !important; /* Wrap text instead of forcing horizontal scroll */
+    word-wrap: break-word !important;
+}
+
+/* Adjust width of notebook outputs like images, tables, and plots */
+.jp-RenderedHTMLCommon, .jp-OutputArea-output {
+    max-width: 100% !important;
+    overflow-x: auto !important;
+}
+
+/* Fix iframe size for embedded notebooks */
+.md-content .md-iframe-wrapper iframe {
+    width: 100% !important;
+    min-height: 600px; /* Adjust height to prevent cutting off content */
+}
+.md-grid {
+    max-width: 100% !important;
+    width: 100% !important;
+} 
+hello

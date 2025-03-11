@@ -50,6 +50,8 @@
     
       <link rel="stylesheet" href="../assets/_mkdocstrings.css">
     
+      <link rel="stylesheet" href="../css/custom.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -74,6 +76,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#installation-and-setup" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -226,48 +233,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../PyroNN_demonstration/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Demonstration of Python Reconstruction Operators in Neural Networks (Pyro-NN)
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../python_script.py" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Python file
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href=".." class="md-nav__link">
         
   
@@ -295,6 +260,20 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -306,6 +285,49 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation 📥
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Installation 📥">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -346,14 +368,14 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    Examples
+    Reconstruction Notebooks
     
   </span>
   
@@ -361,15 +383,66 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Examples
+            Reconstruction Notebooks
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PyroNN_demonstration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Filtered Back Projection
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iterative_reconstruction_parallel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Iterative Reconstruction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
   
   
   
@@ -388,11 +461,24 @@
     </li>
   
 
-              
-            
-          </ul>
-        </nav>
+    
       
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Helpers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Preprocessing
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -418,7 +504,7 @@
             
   
   <span class="md-ellipsis">
-    Reference
+    Code References
     
   </span>
   
@@ -429,7 +515,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
-            Reference
+            Code References
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1425,6 +1511,40 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation 📥
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Installation 📥">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1440,9 +1560,46 @@
 
 
 
-  <h1>Installation</h1>
-
-
+<h1 id="installation-and-setup">Installation and Setup 🛠️</h1>
+<h2 id="installation">Installation 📥</h2>
+<p>Pyro-NN works with <strong>PyTorch</strong> and <strong>TensorFlow</strong>. This guide focuses on <strong>PyTorch</strong>.  </p>
+<h3 id="requirements">Requirements:</h3>
+<ul>
+<li><code>Microsoft Visual Studio (for self-build) 💻</code></li>
+<li><code>Microsoft Visual C++ 14.0+</code></li>
+<li><code>Python package</code>build<code>🐍</code></li>
+<li><code>CUDA &gt;10.2 🚀</code></li>
+</ul>
+<p>Once all of these requirements are fulfilled, follow these steps::</p>
+<ul>
+<li>
+<p>Clone the repo and switch to the <code>torch+tf</code> branch if not done yet:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>torch+tf
+</span></code></pre></div></p>
+</li>
+<li>
+<p>Run the command: 
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>python<span class="w"> </span>-m<span class="w"> </span>build<span class="w"> </span>.<span class="w"> </span>
+</span></code></pre></div></p>
+</li>
+<li>
+<p>Switch to the newly created sub-directory <code>dist</code>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nb">cd</span><span class="w"> </span>dist/<span class="w"> </span>
+</span></code></pre></div></p>
+</li>
+<li>
+<p>Build the wheel file using the following command: 
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>pip<span class="w"> </span>install<span class="w"> </span>pyronn-<span class="o">(</span>*version_number*<span class="o">)</span>.whl
+</span></code></pre></div></p>
+</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Note</p>
+<div class="language-text highlight"><pre><span></span><code>    If necessary, you can modify the `pyproject.toml` file to specify a 
+    particular torch version. However, be cautious and only make changes 
+    if you are confident in what you are doing!
+</code></pre></div>
+</div>
 
 
 
@@ -1511,11 +1668,10 @@
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
   
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Pyro-NN
+    </div>
   
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
   
 </div>
       
@@ -1539,7 +1695,7 @@
       
       
     
-    <a href="https://de.linkedin.com/in/lsschneiderde?trk=public_profile_browsemap" target="_blank" rel="noopener" title="de.linkedin.com" class="md-social__link">
+    <a href="https://www.linkedin.com/in/lsschneiderde/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
     </a>
   

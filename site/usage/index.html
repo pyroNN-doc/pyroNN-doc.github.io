@@ -14,7 +14,7 @@
         <link rel="prev" href="../installation/">
       
       
-        <link rel="next" href="../examples/">
+        <link rel="next" href="../PyroNN_demonstration/">
       
       
       <link rel="icon" href="../assets/favicon.ico">
@@ -50,6 +50,8 @@
     
       <link rel="stylesheet" href="../assets/_mkdocstrings.css">
     
+      <link rel="stylesheet" href="../css/custom.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -74,6 +76,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#usage" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -226,48 +233,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../PyroNN_demonstration/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Demonstration of Python Reconstruction Operators in Neural Networks (Pyro-NN)
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../python_script.py" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Python file
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href=".." class="md-nav__link">
         
   
@@ -316,6 +281,20 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -327,6 +306,61 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-geometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 🔧 Geometry
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-layers" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 🛠️ Layers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-helpers" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 🔍 Helpers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-cores" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. ⚙️ Cores
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -346,14 +380,14 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    Examples
+    Reconstruction Notebooks
     
   </span>
   
@@ -361,15 +395,66 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Examples
+            Reconstruction Notebooks
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PyroNN_demonstration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Filtered Back Projection
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iterative_reconstruction_parallel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Iterative Reconstruction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
   
   
   
@@ -388,11 +473,24 @@
     </li>
   
 
-              
-            
-          </ul>
-        </nav>
+    
       
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Helpers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Preprocessing
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -418,7 +516,7 @@
             
   
   <span class="md-ellipsis">
-    Reference
+    Code References
     
   </span>
   
@@ -429,7 +527,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
-            Reference
+            Code References
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1425,6 +1523,52 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-geometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 🔧 Geometry
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-layers" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 🛠️ Layers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-helpers" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 🔍 Helpers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-cores" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. ⚙️ Cores
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1440,9 +1584,46 @@
 
 
 
-  <h1>Usage</h1>
-
-
+<h1 id="usage">Usage 🏗️💻</h1>
+<p>The methodology of <strong>Pyro-NN</strong> is contained within the <strong><code>ct_reconstruction</code></strong> folder, which is organized into four essential parts:</p>
+<hr />
+<h3 id="1-geometry">1. <strong>🔧 Geometry</strong></h3>
+<p>Defines the scanning parameters and trajectory. </p>
+<ul>
+<li><strong>Initialization from parameters</strong>: This is possible if you know all your scanning parameters and if the scanning trajectory was circular. </li>
+<li><strong>⚠️ Small Tip</strong>: Sometimes, parameters in the header can be incorrectly filled. Be aware—errors may still occur!</li>
+</ul>
+<hr />
+<h3 id="2-layers">2. <strong>🛠️ Layers</strong></h3>
+<p>Defines the 2D and 3D forward/backward projectors. </p>
+<ul>
+<li><strong>Geometry setup</strong>: To initialize these layers, the <strong>geometry</strong> of the scan must be defined.</li>
+<li>
+<p><strong>Input of all layers</strong>: The input is the <strong>Image-Tensor</strong> (depending on the dimensionality) and a <strong>geometry dictionary</strong>, returned when the geometry is initialized.</p>
+</li>
+<li>
+<p><strong>For 2D</strong>: Includes implementations for <strong>Parallel Beam</strong> and <strong>Fan Beam</strong>.</p>
+</li>
+<li><strong>For 3D</strong>: Implements <strong>Cone Beam</strong>.</li>
+</ul>
+<hr />
+<h3 id="3-helpers">3. <strong>🔍 Helpers</strong></h3>
+<p>Provides pre-implemented filters, weights, trajectories, and phantoms. </p>
+<ul>
+<li><strong>Implemented Filters</strong>: </li>
+<li>Ramp Filters, Ram Lak, Shepp Logan, Cosine, Hamming, Hann 🎛️</li>
+<li><strong>Implemented Weights</strong>: </li>
+<li>Cosine, Parker ⚖️</li>
+<li><strong>Implemented Trajectories</strong>: </li>
+<li>Circular and arbitrary paths 🌀</li>
+</ul>
+<hr />
+<h3 id="4-cores">4. <strong>⚙️ Cores</strong></h3>
+<p>Contains the kernels and the PyTorch connection.</p>
+<hr />
+<div class="language-text highlight"><pre><span></span><code>        Each part plays a crucial role in making Pyro-NN an efficient 
+        and powerful framework for differentiable reconstruction. 🚀
+</code></pre></div>
 
 
 
@@ -1489,13 +1670,13 @@
         
         
           
-          <a href="../examples/" class="md-footer__link md-footer__link--next" aria-label="Next: Examples">
+          <a href="../PyroNN_demonstration/" class="md-footer__link md-footer__link--next" aria-label="Next: Filtered Back Projection">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Examples
+                Filtered Back Projection
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -1511,11 +1692,10 @@
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
   
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Pyro-NN
+    </div>
   
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
   
 </div>
       
@@ -1539,7 +1719,7 @@
       
       
     
-    <a href="https://de.linkedin.com/in/lsschneiderde?trk=public_profile_browsemap" target="_blank" rel="noopener" title="de.linkedin.com" class="md-social__link">
+    <a href="https://www.linkedin.com/in/lsschneiderde/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
     </a>
   

@@ -2,122 +2,142 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://pyronn-doc.github.io/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
+    </url>
+    <url>
+         <loc>https://pyronn-doc.github.io/Helpers/</loc>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/PyroNN_demonstration/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/examples/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/installation/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
+    </url>
+    <url>
+         <loc>https://pyronn-doc.github.io/iterative_reconstruction_parallel/</loc>
+         <lastmod>2025-03-11</lastmod>
+    </url>
+    <url>
+         <loc>https://pyronn-doc.github.io/noisy_data_gen_2/</loc>
+         <lastmod>2025-03-11</lastmod>
+    </url>
+    <url>
+         <loc>https://pyronn-doc.github.io/stl_2_numpy/</loc>
+         <lastmod>2025-03-11</lastmod>
+    </url>
+    <url>
+         <loc>https://pyronn-doc.github.io/trainable_filter_demo/</loc>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/usage/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/__init__/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/__init__/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/geometry/geometry_base/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/geometry/geometry_specific/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/helpers/filters/filters/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/helpers/filters/weights/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/helpers/misc/general_utils/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/helpers/phantoms/primitives_2d/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/helpers/phantoms/primitives_3d/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/helpers/phantoms/shepp_logan/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/helpers/trajectories/arbitrary_trajectory/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/helpers/trajectories/circular_trajectory/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/layers/backprojection_2d/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/layers/backprojection_3d/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/layers/projection_2d/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/layers/projection_3d/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/layers/tensorflow/backprojection_2d/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/layers/tensorflow/backprojection_3d/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/layers/tensorflow/projection_2d/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/layers/tensorflow/projection_3d/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/layers/torch/backprojection_2d/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/layers/torch/backprojection_3d/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/layers/torch/projection_2d/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/reference/ct_reconstruction/layers/torch/projection_3d/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
     <url>
          <loc>https://pyronn-doc.github.io/scripts/gen_ref_pages/</loc>
-         <lastmod>2025-02-13</lastmod>
+         <lastmod>2025-03-11</lastmod>
     </url>
 </urlset>
