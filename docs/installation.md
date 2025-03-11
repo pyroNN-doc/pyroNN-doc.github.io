@@ -11,9 +11,9 @@ Pyro-NN works with **PyTorch** and **TensorFlow**. This guide focuses on **PyTor
 
 Once all of these requirements are fulfilled, follow these steps::
 
-* Clone the repo and switch to the `torch` branch:
+* Clone the repo and switch to the `torch+tf` branch if not done yet:
 ```bash
-git checkout torch
+git checkout torch+tf
 ```
 
 * Run the command: 
@@ -22,9 +22,12 @@ python -m build .
 ```
 
 * Switch to the newly created sub-directory `dist`
+```bash
+cd dist/ 
+```
 
 
-* Build the wheel using the following command: 
+* Build the wheel file using the following command: 
 ```bash
 pip install pyronn-(*version_number*).whl
 ```

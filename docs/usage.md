@@ -9,7 +9,7 @@ The methodology of **Pyro-NN** is contained within the **`ct_reconstruction`** f
 Defines the scanning parameters and trajectory. 
 
 - **Initialization from parameters**: This is possible if you know all your scanning parameters and if the scanning trajectory was circular. 
-- **⚠️ Small Tip**: Sometimes, parameters in the header can be incorrectly filled by **XSimulation** and/or **Firefly**. Be aware—errors may still occur!
+- **⚠️ Small Tip**: Sometimes, parameters in the header can be incorrectly filled. Be aware—errors may still occur!
 
 ---
 

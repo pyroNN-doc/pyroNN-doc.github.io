@@ -1,0 +1,16 @@
+/* Adjust width of code blocks */
+.codehilite pre {
+    overflow-x: auto; /* Allow horizontal scroll if necessary */
+    max-width: 100%; /* Make sure it can expand to full width */
+}
+
+/* Remove horizontal scroll for notebooks */
+.codehilite .highlight {
+    overflow-x: auto; /* Allow horizontal scroll if necessary */
+    max-width: 100%; /* Make sure it can expand to full width */
+}
+
+/* Adjust notebook iframe width */
+.md-content .md-iframe-wrapper iframe {
+    width: 100%; /* Make iframe (for notebooks) full width */
+}
